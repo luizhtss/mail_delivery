@@ -1,0 +1,7 @@
+java.lang.NullPointerException
+	at java.net.URI$Parser.parse(URI.java:3042)
+	at java.net.URI.<init>(URI.java:588)
+	at org.apache.http.client.utils.URIBuilder.<init>(URIBuilder.java:82)
+	at br.com.galaxmania.cash.mailsystem.OrderService.runService(OrderService.java:21)
+	at br.com.galaxmania.cash.mailsystem.MailDelivery.<init>(MailDelivery.java:37)
+	at br.com.galaxmania.cash.mailsystem.MailDelivery.main(MailDelivery.java:42)

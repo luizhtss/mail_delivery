@@ -1,0 +1,8 @@
+Order id: 3247
+java.lang.NullPointerException
+	at br.com.galaxmania.cash.mailsystem.OrderObject.generateKeyFragment(OrderObject.java:42)
+	at br.com.galaxmania.cash.mailsystem.OrderObject.generateKey(OrderObject.java:33)
+	at br.com.galaxmania.cash.mailsystem.OrderObject.<init>(OrderObject.java:20)
+	at br.com.galaxmania.cash.mailsystem.OrderService.runService(OrderService.java:83)
+	at br.com.galaxmania.cash.mailsystem.MailDelivery.<init>(MailDelivery.java:37)
+	at br.com.galaxmania.cash.mailsystem.MailDelivery.main(MailDelivery.java:42)
